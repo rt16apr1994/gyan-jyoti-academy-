@@ -8,7 +8,7 @@ const GJA_CONFIG = {
   // ── GOOGLE SHEETS ────────────────────────────────────────
   // Sheet URL se ID nikalna: docs.google.com/spreadsheets/d/THIS_IS_ID/edit
   SHEETS: {
-    INQUIRY_FORM:      "APNI_INQUIRY_SHEET_ID_YAHAN",   // Inquiry/Enrollment form data
+    INQUIRY_FORM:      "112sJUqhdHbRgBY4HMoKOZ879ER07aIYnbuEEor4oit0",   // Inquiry/Enrollment form data
     NOTIFICATIONS:     "APNI_NOTIFICATION_SHEET_ID",     // Home page notifications
     BRANCH1_NOTIF:     "BRANCH1_NOTIFICATION_SHEET_ID",  // Branch 1 specific notifications
     BRANCH2_NOTIF:     "BRANCH2_NOTIFICATION_SHEET_ID",  // Branch 2 specific notifications
