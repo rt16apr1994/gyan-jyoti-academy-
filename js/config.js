@@ -36,7 +36,7 @@ const GJA_CONFIG = {
       phone:   "+91 7000115232",
       phone2:  "+91 7879708070",
       email:   "branch1@gyanjyotischools.com",
-      mapUrl:  "https://maps.google.com/?q=Bawadiya+Kalan+Bhopal",
+      mapUrl:  "https://maps.app.goo.gl/pXQ67CfTeaQTGc1h9",
       mapEmbed: "BRANCH1_GOOGLE_MAPS_EMBED_SRC",         // Google Maps embed URL
       whatsapp: "917000115232",
       color:   "#1a5276",
@@ -49,7 +49,7 @@ const GJA_CONFIG = {
       phone:   "+917415667584",
       phone2:  "",
       email:   "branch2@gyanjyotischools.com",
-      mapUrl:  "https://maps.google.com/?q=BRANCH2+ADDRESS",
+      mapUrl:  "https://maps.app.goo.gl/bEze4vsZ9NxgB8GV7",
       mapEmbed: "BRANCH2_GOOGLE_MAPS_EMBED_SRC",
       whatsapp: "917415667584",
       color:   "#1e8449",
