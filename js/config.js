@@ -36,7 +36,7 @@ const GJA_CONFIG = {
       phone:   "+91 7000115232",
       phone2:  "+91 7879708070",
       email:   "branch1@gyanjyotischools.com",
-      mapUrl:  "https://maps.app.goo.gl/pXQ67CfTeaQTGc1h9",
+      mapUrl:  "https://maps.app.goo.gl/PjUAakFyCAZDgcGDA",
       mapEmbed: "BRANCH1_GOOGLE_MAPS_EMBED_SRC",         // Google Maps embed URL
       whatsapp: "917000115232",
       color:   "#1a5276",
