@@ -17,10 +17,10 @@ const GJA_CONFIG = {
   // ── GOOGLE DRIVE FOLDERS ────────────────────────────────
   // Drive folder URL se ID nikalna: drive.google.com/drive/folders/THIS_IS_ID
   DRIVE: {
-    TOPPERS_BRANCH1:   "BRANCH1_TOPPERS_FOLDER_ID",      // Branch 1 topper photos
-    TOPPERS_BRANCH2:   "BRANCH2_TOPPERS_FOLDER_ID",      // Branch 2 topper photos
-    GALLERY_BRANCH1:   "BRANCH1_GALLERY_FOLDER_ID",      // Branch 1 gallery
-    GALLERY_BRANCH2:   "BRANCH2_GALLERY_FOLDER_ID",      // Branch 2 gallery
+    TOPPERS_BRANCH1:   "1hvFI9kq-zqkXJEFjlukGyKRIyeZzpnpp",      // Branch 1 topper photos
+    TOPPERS_BRANCH2:   "1k5EhQ5Pwj9YCn0kvsSymO2z6y4xfjTZh",      // Branch 2 topper photos
+    GALLERY_BRANCH1:   "1oUKYxxhOOGjkPlfuCdj7jzROCTM_C-Ex",      // Branch 1 gallery
+    GALLERY_BRANCH2:   "1mogeYB9dPkGCZ7vo8b6qz1CY2ghZVizR",      // Branch 2 gallery
   },
 
   // ── GOOGLE APPS SCRIPT WEB APP URL ──────────────────────
