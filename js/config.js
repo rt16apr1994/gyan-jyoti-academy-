@@ -32,7 +32,7 @@ const GJA_CONFIG = {
     branch1: {
       name:    "Gyan Jyoti Academy Higher Secondary School ,Bhopal",
       tagline: "Bawadiya Kalan Campus",
-      address: "Ward No. 52, Bawadiya Kalan, Jatkhedi, Bhopal, MP 462039",
+      address: "Ward No. 52, Bawadiya Kalan, Jatkhedi, Near Radha krishna tample Bhopal, MP 462039",
       phone:   "+91 7000115232",
       phone2:  "+91 7879708070",
       email:   "branch1@gyanjyotischools.com",
