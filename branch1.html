@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Branch 1 — Bawadiya Kalan | Gyan Jyoti Academy</title>
+  <meta name="description" content="Gyan Jyoti Academy Branch 1 — Bawadiya Kalan Campus, Bhopal. Admissions open for LKG to Class XII.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+    }
+    .gallery-item {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      cursor: pointer;
+    }
+    .gallery-item img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-overlay {
+      position: absolute; inset: 0;
+      background: rgba(0,0,0,0);
+      display: flex; align-items: flex-end;
+      padding: 8px;
+      transition: background 0.3s;
+    }
+    .gallery-overlay span {
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .gallery-item:hover .gallery-overlay { background: rgba(0,0,0,0.4); }
+    .gallery-item:hover .gallery-overlay span { opacity: 1; }
+    .facilities-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .facility-item {
+      background: #fff;
+      border: 1px solid #dde3ea;
+      border-radius: 10px;
+      padding: 20px 16px;
+      text-align: center;
+    }
+    .facility-icon { font-size: 28px; margin-bottom: 10px; }
+    .facility-item h4 { font-size: 13px; color: #1a3a5c; font-family: var(--font); }
+  </style>
+</head>
+<body data-branch="branch1">
+
+  <!-- WhatsApp FAB (branch 1 number) -->
+  <a class="whatsapp-fab" id="wa-fab" href="https://wa.me/917000115232?text=Hello%2C%20I%20want%20info%20about%20Branch%201%20admissions" target="_blank" rel="noopener" title="WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-links">
+        <a href="tel:+917000115232">📞 +91 7000115232</a>
+        <a href="tel:+917879708070">+91 7879708070</a>
+      </div>
+      <div class="topbar-links">
+        <strong style="color:#f39c12">🎓 Admissions Open 2026-27</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <a href="index.html" class="logo">
+          <div style="width:48px;height:48px;background:#1a3a5c;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px;">GJ</div>
+          <div class="logo-text">
+            <h1>Gyan Jyoti Academy</h1>
+            <p>Branch 1 — Bawadiya Kalan</p>
+          </div>
+        </a>
+        <nav id="main-nav">
+          <a href="index.html">Home</a>
+          <a href="branch1.html" class="active">Branch 1</a>
+          <a href="branch2.html">Branch 2</a>
+          <a href="#branch-gallery">Gallery</a>
+          <a href="#branch-inquiry" class="btn btn-primary">Enquire Now</a>
+        </nav>
+        <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Branch Hero -->
+  <div class="branch-hero" id="b1-hero" style="background: linear-gradient(135deg, #1a3a5c, #2471a3);">
+    <div class="container">
+      <a href="index.html" style="color:rgba(255,255,255,0.7);font-size:13px;">← Back to Home</a>
+      <h1 style="margin-top:12px;" id="b1-hero-name">Branch 1 — Bawadiya Kalan Campus</h1>
+      <p id="b1-hero-board">State Board Affiliated | LKG to Class XII | Est. 2004</p>
+      <a href="#branch-inquiry" class="btn btn-primary" style="margin-top:16px;">Apply for Admission</a>
+      <div class="branch-hero-meta">
+        <span id="bh-address">📍 Ward No. 52, Bawadiya Kalan, Jatkhedi, Bhopal</span>
+        <span id="bh-phone">📞 +91 7000115232</span>
+        <span>🕐 Mon–Sat: 9AM–2:30PM</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notifications for this branch -->
+  <section style="background:#fff;padding:48px 0;">
+    <div class="container">
+      <div class="info-grid">
+        <!-- Notifications -->
+        <div>
+          <span class="section-tag">Branch 1 Updates</span>
+          <h2 style="margin-bottom:20px;">Notifications</h2>
+          <div class="notif-panel" id="branch-notif-panel">
+            <div class="notif-panel-header">📋 Branch 1 Notifications</div>
+            <div class="notif-panel-list">
+              <div class="notif-panel-item"><span style="color:#888;font-size:13px">Loading...</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div>
+          <span class="section-tag">Location</span>
+          <h2 style="margin-bottom:20px;">Find Us</h2>
+          <div class="map-wrap" id="b1-map">
+            <!-- config.js se map embed load hoga, fallback: -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.8!2d77.3661!3d23.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zQmhhd2FkaXlhIEthbGFuLCBCaG9wYWw!5e0!3m2!1sen!2sin!4v1"
+              id="b1-map-iframe"
+              allowfullscreen loading="lazy">
+            </iframe>
+          </div>
+          <a href="https://maps.google.com/?q=Bawadiya+Kalan+Jatkhedi+Bhopal" target="_blank"
+             style="display:inline-flex;align-items:center;gap:6px;color:#1a3a5c;font-size:13px;font-weight:600;margin-top:10px;">
+            📍 Open in Google Maps →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Toppers Slider for Branch 1 -->
+  <section class="toppers-section">
+    <div class="container">
+      <span class="section-tag">Branch 1 Pride</span>
+      <h2>Our Toppers</h2>
+      <p class="toppers-subtext">Photos loaded automatically from Google Drive</p>
+      <div class="slider-wrap" id="toppers-slider">
+        <div class="slider-track"></div>
+        <div class="slider-loading">📸 Loading topper photos...</div>
+        <div class="slider-controls">
+          <button class="slider-btn slider-prev">←</button>
+          <div class="slider-dots"></div>
+          <button class="slider-btn slider-next">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section style="background:#fff;" id="branch-gallery-section">
+    <div class="container">
+      <span class="section-tag">Campus Life</span>
+      <h2>Photo Gallery</h2>
+      <p style="color:#666;font-size:14px;margin-bottom:24px;">Photos loaded from Google Drive — admin uploads karne par auto-update hoga</p>
+      <div class="gallery-grid" id="branch-gallery">
+        <div style="grid-column:1/-1;text-align:center;padding:40px;color:#888;font-size:14px;">
+          📸 Loading gallery...
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities -->
+  <section style="background:#f0f4f8;">
+    <div class="container">
+      <span class="section-tag">Infrastructure</span>
+      <h2>Campus Facilities</h2>
+      <div class="facilities-grid">
+        <div class="facility-item"><div class="facility-icon">💻</div><h4>Modern ICT Lab</h4></div>
+        <div class="facility-item"><div class="facility-icon">📺</div><h4>Smart Classrooms</h4></div>
+        <div class="facility-item"><div class="facility-icon">📷</div><h4>CCTV Security</h4></div>
+        <div class="facility-item"><div class="facility-icon">🚌</div><h4>Transport System</h4></div>
+        <div class="facility-item"><div class="facility-icon">⚽</div><h4>Sports Ground</h4></div>
+        <div class="facility-item"><div class="facility-icon">📚</div><h4>Library</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inquiry Form -->
+  <section id="branch-inquiry" style="background:#fff;">
+    <div class="container" style="max-width:600px;">
+      <span class="section-tag">Admissions 2026-27</span>
+      <h2 style="margin-bottom:20px;">Enquire for Branch 1</h2>
+      <div class="form-card">
+        <div class="form-card-header">🎓 Branch 1 Admission Inquiry</div>
+        <div class="form-body">
+          <form id="inquiry-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Parent Name *</label>
+                <input type="text" name="parentName" placeholder="Full name" required>
+              </div>
+              <div class="form-group">
+                <label>Student Name</label>
+                <input type="text" name="studentName" placeholder="Student's name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Contact Number *</label>
+                <input type="tel" name="contact" placeholder="+91 XXXXXXXXXX" required>
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="optional">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Class Seeking *</label>
+              <select name="classSeeking" required>
+                <option value="">Select class</option>
+                <option>LKG / UKG</option>
+                <option>Class I – V</option>
+                <option>Class VI – VIII</option>
+                <option>Class IX – X</option>
+                <option>Class XI – XII</option>
+              </select>
+            </div>
+            <!-- Hidden: branch auto-set -->
+            <input type="hidden" name="branch" value="branch1">
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="message" placeholder="Any questions?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">Submit Inquiry →</button>
+          </form>
+          <div class="form-success" id="form-success">✅ Inquiry received! We'll contact you within 24 hours.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Branch 1 — Bawadiya Kalan</h4>
+          <p>Ward No. 52, Bawadiya Kalan, Jatkhedi, Bhopal, MP 462039</p>
+          <p style="margin-top:8px;"><a href="tel:+917000115232">📞 +91 7000115232</a><br><a href="tel:+917879708070">📞 +91 7879708070</a></p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="branch2.html">Branch 2</a></li>
+            <li><a href="#branch-inquiry">Admissions</a></li>
+            <li><a href="#branch-gallery-section">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Mon–Sat: 9:00 AM – 2:30 PM<br>Sunday: Closed</p>
+          <a href="https://wa.me/917000115232" target="_blank" style="display:inline-flex;align-items:center;gap:6px;background:#25d366;color:#fff;padding:8px 16px;border-radius:6px;font-size:13px;font-weight:600;margin-top:12px;">
+            💬 WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Gyan Jyoti Academy. All rights reserved.</span>
+        <a href="index.html">← Back to Main Site</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Branch 1 specific overrides from config
+    if (typeof GJA_CONFIG !== 'undefined') {
+      const b = GJA_CONFIG.BRANCHES.branch1;
+      document.getElementById('b1-hero-name').textContent = b.name;
+      document.getElementById('bh-address').textContent = '📍 ' + b.address;
+      document.getElementById('bh-phone').textContent = '📞 ' + b.phone;
+      document.getElementById('wa-fab').href = `https://wa.me/${b.whatsapp}?text=Hello, I want info about Branch 1 admissions`;
+      if (b.mapEmbed && b.mapEmbed !== 'BRANCH1_GOOGLE_MAPS_EMBED_SRC') {
+        document.getElementById('b1-map-iframe').src = b.mapEmbed;
+      }
+    }
+
+    // Override loadTopperSlider to only load branch1
+    document.addEventListener('DOMContentLoaded', () => {}, false);
+    async function loadTopperSlider() {
+      const wrap = document.getElementById('toppers-slider');
+      if (!wrap) return;
+      const track = wrap.querySelector('.slider-track');
+      const dotsWrap = wrap.querySelector('.slider-dots');
+      const loading = wrap.querySelector('.slider-loading');
+      try {
+        const data = await gjFetch({ action: 'getDrivePhotos', folder: 'toppers', branch: 'branch1' });
+        const photos = data.photos || [];
+        if (!photos.length) { if(loading) loading.textContent = 'Topper photos coming soon!'; return; }
+        if(loading) loading.style.display = 'none';
+        track.innerHTML = photos.map(p => `
+          <div class="topper-card">
+            <img class="topper-photo" src="${p.thumb}" alt="${p.name}" loading="lazy"
+                 onerror="this.src='https://via.placeholder.com/300x400?text=Photo'">
+            <div class="topper-info"><h4>${formatName(p.name)}</h4><p>Branch 1</p></div>
+          </div>`).join('');
+        initSlider(wrap, track, dotsWrap, photos.length);
+      } catch(e) { if(loading) loading.textContent = 'Photos unavailable.'; }
+    }
+  </script>
+</body>
+</html>
