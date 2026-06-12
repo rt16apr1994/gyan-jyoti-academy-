@@ -30,7 +30,7 @@ const GJA_CONFIG = {
   // ── BRANCH INFORMATION ──────────────────────────────────
   BRANCHES: {
     branch1: {
-      name:    "Gyan Jyoti Academy — Branch 1",
+      name:    "Gyan Jyoti Academy Higher Secondary School ,Bhopal",
       tagline: "Bawadiya Kalan Campus",
       address: "Ward No. 52, Bawadiya Kalan, Jatkhedi, Bhopal, MP 462039",
       phone:   "+91 7000115232",
