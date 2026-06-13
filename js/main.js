@@ -36,13 +36,38 @@ async function gjFetch(params) {
   return res.json();
 }
 
-async function gjPost(body) {
+/*async function gjPost(body) {
   const res = await fetch(GJA_CONFIG.APPS_SCRIPT_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
   });
   return res.json();
+} */
+
+// Is function ko apne existing gjPost function se replace karein
+async function gjPost(formData) {
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz2ytkmCNam7ZeIG02pie789qd6fo1RGF3luWAjTKCSCFxHkAbgAjF37SSEv13PQkVV7Q/exec';
+
+  try {
+    const response = await fetch(SCRIPT_URL, {
+      method: 'POST',
+      mode: 'cors', // Browser ko batata hai ki yeh cross-origin request hai
+      /* CRITICAL: 'Content-Type': 'application/json' YAHAAN NAHI LIKHNA HAI.
+         Agar aap json header bhejenge to Google use simple request nahi manega 
+         aur preflight OPTIONS check fail ho jayega, jisse CORS error aata hai.
+      */
+      body: JSON.stringify(formData) 
+    });
+
+    // Google script text formats me response bhejta hai jise hum parse karenge
+    const textData = await response.text(); 
+    return JSON.parse(textData);
+
+  } catch (error) {
+    console.error("gjPost Error Details:", error);
+    return { success: false, error: error.message };
+  }
 }
 
 // ============================================================
