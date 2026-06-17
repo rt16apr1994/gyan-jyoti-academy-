@@ -25,7 +25,7 @@ const GJA_CONFIG = {
 
   // ── GOOGLE APPS SCRIPT WEB APP URL ──────────────────────
   // Step 3 ke baad milega ye URL
-  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbzyLlrKQynzZ6XMlvBpjDghpmnMkS3CrxfbzecMoPwi1tAjHQ1NlOw_nz5rxNcH44jxjw/exec",
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbwPfHgkmj6VfEVRZja_8-h_yAfJBUIc1qFHrRtdavqbt7dAjRFET0yHrMFTqHIBX06OVQ/exec",
 
   // ── BRANCH INFORMATION ──────────────────────────────────
   BRANCHES: {
