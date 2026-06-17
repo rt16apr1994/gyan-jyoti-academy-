@@ -47,7 +47,7 @@ async function gjFetch(params) {
 
 // Is function ko apne existing gjPost function se replace karein
 async function gjPost(formData) {
-  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzyLlrKQynzZ6XMlvBpjDghpmnMkS3CrxfbzecMoPwi1tAjHQ1NlOw_nz5rxNcH44jxjw/exec';
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwPfHgkmj6VfEVRZja_8-h_yAfJBUIc1qFHrRtdavqbt7dAjRFET0yHrMFTqHIBX06OVQ/exec';
 
   try {
     const response = await fetch(SCRIPT_URL, {
