@@ -22,10 +22,15 @@ const GJA_CONFIG = {
   // ── GOOGLE DRIVE FOLDERS ────────────────────────────────
   // Drive folder URL se ID nikalna: drive.google.com/drive/folders/THIS_IS_ID
   DRIVE: {
-    TOPPERS_BRANCH1:   "1hvFI9kq-zqkXJEFjlukGyKRIyeZzpnpp",      // Branch 1 topper photos
-    TOPPERS_BRANCH2:   "1k5EhQ5Pwj9YCn0kvsSymO2z6y4xfjTZh",      // Branch 2 topper photos
-    GALLERY_BRANCH1:   "1oUKYxxhOOGjkPlfuCdj7jzROCTM_C-Ex",      // Branch 1 gallery
-    GALLERY_BRANCH2:   "1mogeYB9dPkGCZ7vo8b6qz1CY2ghZVizR",      // Branch 2 gallery
+    //TOPPERS_BRANCH1:   "1hvFI9kq-zqkXJEFjlukGyKRIyeZzpnpp",      // Branch 1 topper photos
+    //TOPPERS_BRANCH2:   "1k5EhQ5Pwj9YCn0kvsSymO2z6y4xfjTZh",      // Branch 2 topper photos
+    //GALLERY_BRANCH1:   "1oUKYxxhOOGjkPlfuCdj7jzROCTM_C-Ex",      // Branch 1 gallery
+    //GALLERY_BRANCH2:   "1mogeYB9dPkGCZ7vo8b6qz1CY2ghZVizR",      // Branch 2 gallery
+
+    TOPPERS_BRANCH1:   "1QIqGePBiRViGpJPoSa8USrwHNy8gbRnQ",      // Branch 1 topper photos
+    TOPPERS_BRANCH2:   "1A41YCVeHfI53NbaXhyJih7r1nPIaEbKk",      // Branch 2 topper photos
+    GALLERY_BRANCH1:   "1d9n91fKzpICxK9SRY3kasvzz2JXKbHBs",      // Branch 1 gallery
+    GALLERY_BRANCH2:   "1RvoVapdvIK0UawcdNZDshxjZkBWF9seB",      // Branch 2 gallery
   },
 
   // ── GOOGLE APPS SCRIPT WEB APP URL ──────────────────────
