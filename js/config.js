@@ -10,7 +10,9 @@ const GJA_CONFIG = {
   SHEETS: {
     //INQUIRY_FORM:      "112sJUqhdHbRgBY4HMoKOZ879ER07aIYnbuEEor4oit0",   // Inquiry/Enrollment form data
     INQUIRY_FORM:      "1Q4mvHADcsrPiMktRPAiFnUGptk4dsQCOgSsGqH51nW0",
-    NOTIFICATIONS:     "1g2VQAuKdgzR482dfli21obSvZPvRVpZZN6X4FiefbN0",     // Home page notifications
+    //NOTIFICATIONS:     "1g2VQAuKdgzR482dfli21obSvZPvRVpZZN6X4FiefbN0",     // Home page notifications
+    NOTIFICATIONS:     "1LQ-IIsVQSLZTnzm2p9U7rHz8QaKFyEI-YQXtkhFp9AI",
+    
     BRANCH1_NOTIF:     "1AEGeSUpQ9LRGjBdSzyp2dpnPz2LSJ_SpFLsoagqqzVI",  // Branch 1 specific notifications
     BRANCH2_NOTIF:     "1FDbdfaRtnhs5bRpRfkjF3iHcGfsAT09VJnKs8WRDA6U",  // Branch 2 specific notifications
   },
