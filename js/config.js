@@ -13,8 +13,10 @@ const GJA_CONFIG = {
     //NOTIFICATIONS:     "1g2VQAuKdgzR482dfli21obSvZPvRVpZZN6X4FiefbN0",     // Home page notifications
     NOTIFICATIONS:     "1LQ-IIsVQSLZTnzm2p9U7rHz8QaKFyEI-YQXtkhFp9AI",
     
-    BRANCH1_NOTIF:     "1AEGeSUpQ9LRGjBdSzyp2dpnPz2LSJ_SpFLsoagqqzVI",  // Branch 1 specific notifications
-    BRANCH2_NOTIF:     "1FDbdfaRtnhs5bRpRfkjF3iHcGfsAT09VJnKs8WRDA6U",  // Branch 2 specific notifications
+    //BRANCH1_NOTIF:     "1AEGeSUpQ9LRGjBdSzyp2dpnPz2LSJ_SpFLsoagqqzVI",  // Branch 1 specific notifications
+    BRANCH1_NOTIF:     "1LQ-IIsVQSLZTnzm2p9U7rHz8QaKFyEI-YQXtkhFp9AI", 
+    //BRANCH2_NOTIF:     "1FDbdfaRtnhs5bRpRfkjF3iHcGfsAT09VJnKs8WRDA6U",  // Branch 2 specific notifications
+    BRANCH2_NOTIF:     "1LQ-IIsVQSLZTnzm2p9U7rHz8QaKFyEI-YQXtkhFp9AI",
   },
 
   // ── GOOGLE DRIVE FOLDERS ────────────────────────────────
