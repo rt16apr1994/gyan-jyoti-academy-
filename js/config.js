@@ -8,7 +8,8 @@ const GJA_CONFIG = {
   // ── GOOGLE SHEETS ────────────────────────────────────────
   // Sheet URL se ID nikalna: docs.google.com/spreadsheets/d/THIS_IS_ID/edit
   SHEETS: {
-    INQUIRY_FORM:      "112sJUqhdHbRgBY4HMoKOZ879ER07aIYnbuEEor4oit0",   // Inquiry/Enrollment form data
+    //INQUIRY_FORM:      "112sJUqhdHbRgBY4HMoKOZ879ER07aIYnbuEEor4oit0",   // Inquiry/Enrollment form data
+    INQUIRY_FORM:      "1Q4mvHADcsrPiMktRPAiFnUGptk4dsQCOgSsGqH51nW0",
     NOTIFICATIONS:     "1g2VQAuKdgzR482dfli21obSvZPvRVpZZN6X4FiefbN0",     // Home page notifications
     BRANCH1_NOTIF:     "1AEGeSUpQ9LRGjBdSzyp2dpnPz2LSJ_SpFLsoagqqzVI",  // Branch 1 specific notifications
     BRANCH2_NOTIF:     "1FDbdfaRtnhs5bRpRfkjF3iHcGfsAT09VJnKs8WRDA6U",  // Branch 2 specific notifications
